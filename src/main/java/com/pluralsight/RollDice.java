@@ -28,7 +28,7 @@ public class RollDice {
             } else if (sum == 7) {
                 diceRoll7++;
             }
-            System.out.print("Roll " + i + ": " + roll1 + " - " + roll2 + " Sum: " + sum + "\n");
+            System.out.print("Roll " + dice + ": " + roll1 + " - " + roll2 + " Sum: " + sum + "\n");
         }
 
         System.out.println("Sum of two: " + diceRoll2);
